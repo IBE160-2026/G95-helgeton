@@ -1,0 +1,62 @@
+Product Brief: WordFlow
+Fag: IBE160 Programmering med KI, Høgskolen i Molde (høsten 2026) Gruppe: G95 — Malin Helgeton Status: Utkast v0.1
+
+1. Oppsummering
+WordFlow er en læringsapp som gjør bøker, kurs og oppgaver om til en flerkanals læringsopplevelse der tekst, lyd og bilder henger sammen. Brukeren leser teksten, hører den lest høyt med synkronisert markering av ordene, og ser illustrasjoner, figurer og forklarende bilder knyttet til akkurat det avsnittet eller begrepet de jobber med.
+
+Med hjelp av KI kan WordFlow ta et eksisterende læringsinnhold (for eksempel et kapittel, et kurs eller en oppgavetekst) og lage opplesning, bildeforklaringer, ordforklaringer og korte kontrollspørsmål. Målet er at flere skal forstå og huske det de lærer, uansett om de lærer best ved å lese, lytte eller se.
+
+2. Problemet
+Mye læringsinnhold er fortsatt laget for én kanal, som regel ren tekst. Det skaper flere problemer:
+
+Tunge tekster gir lav forståelse. Lange avsnitt med fagbegreper er krevende, særlig for elever og studenter med lese- og skrivevansker (som dysleksi), konsentrasjonsvansker eller et annet morsmål enn undervisningsspråket.
+Tekst, lyd og bilder lever hver for seg. Lydbøker, lærebøker, lysark og videoer finnes ofte, men er ikke koblet sammen. Den som lytter, mister oversikten over hvor i teksten de er, og bildene står sjelden ved siden av det de forklarer.
+Passiv læring. Å lese eller lytte uten å bli stilt spørsmål underveis gir dårlig hukommelse. Mange oppdager først på prøven at de ikke har forstått stoffet.
+Tilpasning koster mye tid. Lærere og kursholdere vil gjerne tilpasse undervisningen, men har ikke tid til å lage lyd, illustrasjoner og ordlister til hvert enkelt tema.
+3. Løsningen
+WordFlow samler tekst, lyd og bilder i én synkronisert visning, og bruker KI til å lage det som mangler.
+
+Kjernefunksjoner:
+
+Synkronisert lesing og lytting. Teksten leses høyt, og ordet eller setningen som leses markeres fortløpende. Brukeren kan justere tempo, hoppe tilbake og bytte mellom å lese og lytte uten å miste plassen sin.
+Bilder knyttet til innholdet. Hvert avsnitt eller nøkkelbegrep kan ha et bilde, en figur eller en enkel illustrasjon som vises ved siden av teksten, med en kort forklaring som også kan leses høyt.
+Trykk for å forstå. Brukeren trykker på et vanskelig ord og får en enkel forklaring, uttale og eventuelt et bilde.
+Kontrollspørsmål underveis. Etter hver del får brukeren korte spørsmål som sjekker om stoffet er forstått, med forklaring hvis svaret er feil.
+KI-assistert innholdsproduksjon. Lærere og kursholdere kan legge inn egen tekst og få forslag til opplesning, bildeforklaringer, ordliste og spørsmål, som de selv godkjenner før innholdet publiseres.
+Eksempel på bruk: En student åpner kapittel 3 i et kurs om økologi. De lytter til teksten på bussen, ser en figur av næringskjeden dukke opp når den nevnes, trykker på ordet «primærprodusent» for en forklaring, og svarer på tre korte spørsmål før de går videre til neste del.
+
+4. Hvorfor dette er annerledes
+Eksisterende løsninger	WordFlow
+Lydbøker gir lyd, men uten tekst og bilder	Tekst, lyd og bilder vises samtidig og synkront
+E-bøker og PDF-er er stort sett ren tekst	Hvert avsnitt kan ha forklarende bilder og opplesning
+Tekst-til-tale-verktøy leser opp, men forklarer ikke	Ordforklaringer og kontrollspørsmål er bygget inn
+Å tilpasse innhold krever mye manuelt arbeid	KI lager forslag, og læreren kvalitetssikrer
+Det som skiller WordFlow ut, er koblingen mellom kanalene. Appen er ikke en lydbok, en e-bok eller en quizapp hver for seg. Den lar samme innhold oppleves på flere måter samtidig. Dette bygger på kjent læringsteori (multimedielæring og dobbel koding), der ord og bilder som presenteres sammen gir bedre forståelse enn ord alene. I tillegg holder læreren kontrollen: KI-generert innhold er et forslag som må godkjennes, ikke en fasit.
+
+5. Hvem det hjelper
+Elever og studenter med lese- og skrivevansker. De kan lytte og se i stedet for bare å lese, uten å falle ut av teksten.
+Flerspråklige elever og voksne som lærer norsk. Opplesning, ordforklaringer og bilder gjør fagbegreper lettere å forstå.
+Alle som lærer best visuelt eller auditivt, eller som vil bruke tiden på bussen, trening eller gåtur til å lære.
+Lærere, kursholdere og forfattere som ønsker å tilby tilpasset og universelt utformet innhold uten å bruke timevis på å produsere lyd og bilder selv.
+Skoler og utdanningsinstitusjoner som må oppfylle krav til universell utforming og tilpasset opplæring.
+6. Suksesskriterier
+For første versjon (MVP i dette faget):
+
+En bruker kan åpne et kapittel eller en oppgave og få teksten lest opp med synkronisert markering av ord eller setninger.
+Minst ett bilde eller én figur kan knyttes til et avsnitt og vises på riktig sted.
+En bruker kan trykke på et ord og få en forklaring.
+Appen kan lage minst tre kontrollspørsmål per del med hjelp av KI.
+En lærer kan legge inn egen tekst og godkjenne eller redigere KI-forslagene før publisering.
+Appen er testet med minst 5 testbrukere, og utviklingen, testingen og kvalitetssikringen med KI er dokumentert i repoet.
+Målbare effekter (på sikt):
+
+Brukere svarer riktig på minst 20 % flere kontrollspørsmål med WordFlow enn etter å ha lest samme tekst som ren tekst.
+Minst 80 % av testbrukerne sier at innholdet ble lettere å forstå.
+Minst 70 % av brukerne som starter et kapittel, fullfører det.
+En lærer bruker under 15 minutter på å gjøre en vanlig tekst om til en ferdig WordFlow-leksjon.
+Appen følger WCAG 2.1 AA for tilgjengelighet.
+7. Visjon
+WordFlow skal gjøre det like naturlig å lytte og se et lærebokkapittel som å lese det. På lang sikt ser vi for oss en plattform der alt læringsinnhold, fra barneskolens lesebøker til universitetskurs og etterutdanning, automatisk kan oppleves som tekst, lyd og bilde, tilpasset den enkeltes tempo, språk og behov.
+
+Vi vil at ingen skal falle av fordi innholdet bare finnes i én form. Når tekst, lyd og bilder flyter sammen, blir læring mer tilgjengelig, mer engasjerende og lettere å huske. Det er det vi mener med WordFlow.
+
